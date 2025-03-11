@@ -3,7 +3,7 @@ import FlipBook from "./components/FlipBook";
 
 function App() {
   return (
-    <div className="bg-red">
+    <div className="">
       <FlipBook />
     </div>
   );
