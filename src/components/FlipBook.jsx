@@ -54,7 +54,7 @@ function FlipBook() {
   };
 
   return (
-    <div className="h-screen w-screen flex flex-col gap-5 justify-center items-center bg-gradient-to-br from-blue-50 to-purple-50 overflow-hidden relative">
+    <div className=" w-screen flex flex-col gap-5 justify-center items-center bg-gradient-to-br from-blue-50 to-purple-50 overflow-hidden relative">
       <h1 className="text-4xl text-gray-800 text-center font-bold mb-8">
         FlipBook
       </h1>

@@ -1,1 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900;
+  }
+}
+
+@layer utilities {
+  .clip-nav {
+    clip-path: path("M0,0 L100,0 L100,85 Q50,150 0,85 Z");
+  }
+
+  .font-beyond {
+    font-family: "Playfair Display", serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
