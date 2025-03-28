@@ -80,6 +80,8 @@ export default function Dashboard(){
                   <Image
                     src={magazine.cover}
                     alt={magazine.title}
+                    width={100}
+                    height={100}
                     className="w-full h-fit object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
